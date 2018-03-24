@@ -11,7 +11,7 @@ import com.nelioalves.cursomc.repositories.CategoriaRepository;
 @Service
 public class CategoriaService
 {
-	@Autowired //Automaticamente instanciado pelo Spring boot
+	@Autowired // Instancia automaticamente pelo Spring boot
 	private CategoriaRepository repo;
 	
 	public Categoria buscar(Integer id)
